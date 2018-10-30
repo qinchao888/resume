@@ -1,0 +1,29 @@
+<view class="work">
+  <view class="description">
+    <view class="content">
+      <view class="category border">
+        <view class="img_wrap">
+          <image src="../../images/project-experience.png"></image>
+        </view>
+        <view class="title">项目经验</view>
+      </view>
+      <view class="detail">
+        <view class="details" wx:for="{{experience}}" wx:key="{{index}}">
+          <view class="desc">
+            <!-- <text>{{item.order}}.</text> -->
+            <text>项目:</text>
+            <text>{{ item.project }}</text>
+          </view>
+          <view>
+            <text>描述:</text>
+            <text>{{ item.responsible }}</text>
+          </view>
+          <view>
+            <text>技术:</text>
+            <text>{{ item.description}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

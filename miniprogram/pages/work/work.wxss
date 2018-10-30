@@ -1,0 +1,63 @@
+/**index.wxss**/
+view {
+  font-size: 28rpx;
+}
+.work {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 30rpx 30rpx 30rpx;
+  background-color: #f4f4f4;
+  overflow: scroll;
+  display: flex;
+}
+.description {
+  margin: auto 0;
+  width: 100%;
+}
+.description>.content {
+  padding: 0 30rpx 30rpx 30rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  box-shadow: 6rpx 6rpx 6rpx rgba(0, 0, 0, 0.3);
+}
+.description>.content>.category {
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+}
+.description>.content>.category>.img_wrap {
+  margin-right: 10rpx;
+}
+.description>.content>.category>.img_wrap image {
+  display: block;
+  width: 48rpx;
+  height: 48rpx;
+}
+.description>.content>.category::after {
+  border-bottom: 1px solid #ccc;
+}
+.description>.content>.detail {
+  margin-top: 10rpx;
+}
+.description>.content .title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.description>.content .details {
+  line-height: 54rpx;
+}
+.description>.content .details:not(:last-child) {
+  margin-bottom: 30rpx;
+}
+.description>.content .details text {
+  color: #2c2c2c;
+}
+.description>.content .details>.desc>text {
+  font-weight: bold;
+}
+.description>.content .details text:not(:last-child){
+  margin-right: 20rpx;
+}

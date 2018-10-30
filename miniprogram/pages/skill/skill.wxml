@@ -1,0 +1,18 @@
+<view class="skill">
+  <view class="banner">
+    <swiper>
+      <swiper-item>
+          <image src="../../images/skill-header1.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="content">
+    <view class="details" wx:for="{{skillsData}}" wx:key="{{index}}">
+      <view class="img_wrap">
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="text">{{ item.width }}</view>
+      <!-- <degree degree-width="{{item.width}}"></degree> -->
+    </view>
+  </view>
+</view>

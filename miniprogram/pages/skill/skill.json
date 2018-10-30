@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "degree": "../../components/degree/degree"
+  }
+}

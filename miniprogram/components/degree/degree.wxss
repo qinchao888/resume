@@ -1,0 +1,22 @@
+.detail {
+  display: flex;
+  margin-left: 30rpx;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+}
+.detail>.desc {
+  color: #999;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+.detail>.degree {
+  width: 400rpx;
+  height: 24rpx;
+  background-color: #ddd;
+}
+.detail>.degree>.length {
+  /*width: 200rpx;*/
+  height: 100%;
+  background-color: #aaa;
+}
