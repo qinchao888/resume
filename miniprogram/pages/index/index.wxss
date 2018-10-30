@@ -1,0 +1,85 @@
+/**index.wxss**/
+view {
+  font-size: 28rpx;
+}
+.info {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 30rpx 30rpx 30rpx;
+  background-color: #f4f4f4;
+  overflow: scroll;
+}
+.info .header {
+  position: relative;
+  margin-top: 120rpx;
+  border: 1px solid transparent;
+  background-color: #fff;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  padding-bottom: 20rpx;
+  box-shadow: 6rpx 6rpx 6rpx rgba(0, 0, 0, 0.3);
+}
+.info .header .img_wrap image {
+  position: absolute;
+  left:0;
+  right: 0;
+  margin: 0 auto;
+  top: -100rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+.info>.header>.introduction {
+  margin-top: 100rpx;
+  text-align: center;
+}
+.info>.header>.introduction>.name {
+  font-size: 36rpx;
+  line-height: 80rpx;
+}
+.info>.header>.introduction>.blog {
+  font-size: 28rpx;
+  color: #666;
+}
+.description>.content {
+  margin-top: 30rpx;
+  padding: 0 30rpx 30rpx 30rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  box-shadow: 6rpx 6rpx 6rpx rgba(0, 0, 0, 0.3);
+}
+.description>.content>.category {
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+}
+.description>.content>.category>.img_wrap {
+  margin-right: 10rpx;
+}
+.description>.content>.category>.img_wrap image {
+  display: block;
+  width: 48rpx;
+  height: 48rpx;
+}
+.description>.content>.category::after {
+  border-bottom: 1px solid #ccc;
+}
+.description>.content>.detail {
+  margin-top: 10rpx;
+}
+.description>.content .title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.description>.content .details {
+  line-height: 54rpx;
+}
+.description>.content .details text {
+  color: #2c2c2c;
+}
+.description>.content .details text:nth-child(1) {
+  margin-right: 20rpx;
+}

@@ -1,0 +1,6 @@
+<view class="detail">
+  <view class="degree">
+    <view class="length" style="width: {{degreeWidth}}"></view>
+  </view>
+  <view class="desc">{{ text }}</view>
+</view>

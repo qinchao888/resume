@@ -1,0 +1,45 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/skill/skill",
+    "pages/work/work",
+    "pages/experience/experience",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "秦超的简历"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#2c2c2c",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "基本信息",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-active.png"
+      },
+      {
+        "pagePath": "pages/skill/skill",
+        "text": "个人技能",
+        "iconPath": "images/skill.png",
+        "selectedIconPath": "images/skill-active.png"
+      },
+      {
+        "pagePath": "pages/work/work",
+        "text": "工作经历",
+        "iconPath": "images/work.png",
+        "selectedIconPath": "images/work-active.png"
+      },
+      {
+        "pagePath": "pages/experience/experience",
+        "text": "项目经验",
+        "iconPath": "images/experience.png",
+        "selectedIconPath": "images/experience-active.png"
+      }
+    ]
+  }
+}

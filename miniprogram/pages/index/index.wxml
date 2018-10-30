@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="info">
+  <view class="header">
+    <view class="img_wrap">
+      <image src="../../images/personal.jpg"></image>
+    </view>
+    <view class="introduction">
+      <h1 class="name">秦超</h1>
+      <view class="blog">个人博客: https://blog.csdn.net/greybearchao</view>
+    </view>
+  </view>
+  <view class="description">
+    <view class="content" wx:for="{{info}}" wx:key="{{index}}">
+      <view class="category border">
+        <view class="img_wrap">
+          <image src="{{item.url}}"></image>
+        </view>
+        <view class="title">{{ item.title }}</view>
+      </view>
+      <view class="detail">
+        <view class="details" wx:for="{{item.data}}" wx:for-item="dataItem" wx:for-index="dataIndex" wx:key="{{dataIndex}}">
+          <text>{{ dataItem.tag }}</text>
+          <text>{{ dataItem.val }}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

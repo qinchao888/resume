@@ -1,0 +1,32 @@
+<view class="work">
+  <view class="description">
+    <view class="content">
+      <view class="category border">
+        <view class="img_wrap">
+          <image src="../../images/work-experience.png"></image>
+        </view>
+        <view class="title">工作经历</view>
+      </view>
+      <view class="detail">
+        <view class="details" wx:for="{{work}}" wx:key="{{index}}">
+          <view class="desc">
+            <!-- <text>{{item.order}}.</text> -->
+            <text>{{ item.type }}</text>
+            <text>|</text>
+            <text>{{ item.name }}</text>
+            <text>|</text>
+            <text>{{ item.status }}</text>
+          </view>
+          <view>
+            <text>工作时间:</text>
+            <text>{{ item.time }}</text>
+          </view>
+          <view>
+            <text>岗位:</text>
+            <text>{{ item.post}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
